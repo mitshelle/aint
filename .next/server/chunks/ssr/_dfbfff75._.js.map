@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///Users/michellemcgowan/code/aint/src/app/page.tsx"],"sourcesContent":["import React from \"react\";\n\nfunction HomePage(){\n  return (\n    <div>Homepage</div>\n  )\n}\n\nexport default HomePage;"],"names":[],"mappings":";;;;;AAEA,SAAS;IACP,qBACE,6WAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}
