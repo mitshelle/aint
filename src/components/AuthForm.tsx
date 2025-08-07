@@ -8,6 +8,7 @@ import { Button } from './ui/button';
 import { Loader2 } from 'lucide-react';
 import Link from 'next/link';
 import { toast } from 'sonner';
+import { loginAction, signUpAction } from "@/actions/user";
 
 type Props = {
     type: "login" | "signUp"
@@ -40,9 +41,6 @@ function AuthForm({ type }: Props) {
             }
 
             if (!errorMessage) {
-                toast(title, {
-                    description: "You have been successfully logged out!",
-                })
                 router.replace("/");
             } else {
                 toast("Error", {
