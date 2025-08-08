@@ -3,8 +3,8 @@
 import { useSearchParams } from "next/navigation";
 import { Textarea } from "./ui/textarea";
 import { ChangeEvent, useEffect } from "react";
-import { updateNoteAction } from "@/actions/notes";
 import useNote from "@/hooks/useNote";
+import { updateNoteAction } from "@/actions/note";
 
 type Props = {
   noteId: string;

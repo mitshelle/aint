@@ -7,6 +7,7 @@ import DarkModeToggle from './DarkModeToggle';
 import { Toaster } from 'sonner';
 import { getUser } from '@/auth/server';
 import LogOutButton from './LogOutButton';
+import { SidebarTrigger } from './ui/sidebar';
 
 async function Header() {
     const user = await getUser();
@@ -16,7 +17,7 @@ async function Header() {
                 boxShadow: shadow,
             }}
         >
-
+            <SidebarTrigger className='absolute left-1 top-1'/>
             <Link href="/" className="flex items-end">
                 <Image
                     src="/android-chrome-512x512.png"
