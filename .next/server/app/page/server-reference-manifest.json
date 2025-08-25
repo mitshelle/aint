@@ -22,6 +22,17 @@
         "app/page": "action-browser"
       }
     },
+    "7fb9a07c80b082739eb6d45eca91dc70b297b7ae8d": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/actions/user.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/actions/note.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
     "7f81146d3669b87a26530f4e441d03cacdb33fe430": {
       "workers": {
         "app/page": {

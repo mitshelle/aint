@@ -1,4 +1,7 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/create-new-note/route": "app/api/create-new-note/route.js",
+  "/api/fetch-newest-note/route": "app/api/fetch-newest-note/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/login/page": "app/login/page.js",
   "/page": "app/page.js"
